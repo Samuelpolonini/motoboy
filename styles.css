@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+   color:  #0d0c0c;
+   cursor: pointer
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    cursor: pointer
+    
+}
+h1:hover {
+    color: #ff6600;
+    text-align: left 25px;
+    transition: color 0.3s ease;
+    cursor: pointer
+}
+
+p {
+   
+    transition: color 0.3s ease;
+}
+
+p:hover {
+    color: #ff6600;
+}
+.fontes {
+    font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer
+}
+
+h2{
+    text-align: center;
+   
+}
+
+.motos{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    transition: transform 0.3s ease;
+    right: 10%;
+    top: 33%;
+    cursor: pointer
+}
+.motos:hover {
+    transform: translateX(-20px);
+}
+.wpp{
+    position: absolute;
+    height: auto;
+    width: 60px;
+    top: 36% ;
+    right: 40%;
+    transition: transform 0.3s ease ;
+    cursor: pointer
+    
+}
+.wpp:hover {
+    transform: translateX(20px);
+}
+h2{
+    color: #333;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+h2:hover {
+    color: #ff0000;
+
+}
+.moto2{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    transition: transform 0.3s ease;
+    right: 80%;
+    top: 34%;
+    cursor: pointer
+}
+.moto2:hover{
+    transform: translateX(20px);
+}
+.agendar-button {
+    background-color: #00cccc; 
+    color: white;
+    border: 2px solid #000; 
+    border-radius: 20px; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block; 
+    width: 200px; 
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px auto; 
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer
+}
+
+.agendar-button:hover {
+    background-color: #00a3a3; 
+    transform: scale(1.1); 
+}
+
+.links {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: transform 0.3s ease; 
+    display: inline-block;
+}
+
+.links a:hover {
+    color: #ff0000;
+    transform: scale(1.1); 
+}
